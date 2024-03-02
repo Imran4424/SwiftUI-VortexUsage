@@ -15,10 +15,10 @@ struct NameFloatingView: View {
         VortexViewReader { proxy in
             ZStack(alignment: .bottom) {
                 if isDragging {
-                    Text("Release your drag to reset the characters.")
+                    Text("Release your drag to reset the names.")
                         .padding(.bottom, 20)
                 } else {
-                    Text("Drag anywhere to repel the characters.")
+                    Text("Drag anywhere to repel the names.")
                         .padding(.bottom, 20)
                 }
                 

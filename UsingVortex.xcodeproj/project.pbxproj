@@ -20,6 +20,7 @@
 		1D0284102B93397A006F6B23 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02840F2B93397A006F6B23 /* SnowView.swift */; };
 		1D0284122B9339AD006F6B23 /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0284112B9339AD006F6B23 /* SparkView.swift */; };
 		1D0284142B933FDB006F6B23 /* NameFloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0284132B933FDB006F6B23 /* NameFloatingView.swift */; };
+		1D0284162B934D19006F6B23 /* DigitFloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0284152B934D19006F6B23 /* DigitFloatingView.swift */; };
 		1D6B5F622B9333860081C1A0 /* UsingVortexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */; };
 		1D6B5F642B9333860081C1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F632B9333860081C1A0 /* ContentView.swift */; };
 		1D6B5F662B9333870081C1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B5F652B9333870081C1A0 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		1D02840F2B93397A006F6B23 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
 		1D0284112B9339AD006F6B23 /* SparkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkView.swift; sourceTree = "<group>"; };
 		1D0284132B933FDB006F6B23 /* NameFloatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameFloatingView.swift; sourceTree = "<group>"; };
+		1D0284152B934D19006F6B23 /* DigitFloatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitFloatingView.swift; sourceTree = "<group>"; };
 		1D6B5F5E2B9333860081C1A0 /* UsingVortex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingVortex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingVortexApp.swift; sourceTree = "<group>"; };
 		1D6B5F632B9333860081C1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				1D02840D2B933944006F6B23 /* SmokeView.swift */,
 				1D02840F2B93397A006F6B23 /* SnowView.swift */,
 				1D0284112B9339AD006F6B23 /* SparkView.swift */,
+				1D0284152B934D19006F6B23 /* DigitFloatingView.swift */,
 				1D0284132B933FDB006F6B23 /* NameFloatingView.swift */,
 				1D6B5F652B9333870081C1A0 /* Assets.xcassets */,
 				1D6B5F672B9333870081C1A0 /* Preview Content */,
@@ -185,6 +188,7 @@
 				1D02840E2B933944006F6B23 /* SmokeView.swift in Sources */,
 				1D0283FB2B933695006F6B23 /* ConfettiView.swift in Sources */,
 				1D02840C2B933912006F6B23 /* RainView.swift in Sources */,
+				1D0284162B934D19006F6B23 /* DigitFloatingView.swift in Sources */,
 				1D0284142B933FDB006F6B23 /* NameFloatingView.swift in Sources */,
 				1D0284062B933820006F6B23 /* DragFirefliesView.swift in Sources */,
 				1D0284122B9339AD006F6B23 /* SparkView.swift in Sources */,
