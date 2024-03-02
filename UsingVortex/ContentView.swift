@@ -9,16 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                NavigationLink("Confetti", destination: ConfettiView.init)
+                NavigationLink("Tap Anywhere Confetti", destination: TapAnywhereConfettiView.init)
+                NavigationLink("Fire", destination: FireView.init)
+                NavigationLink("Fireflies", destination: FirefliesView.init)
+                NavigationLink("Drag Fireflies", destination: DragFirefliesView.init)
+                NavigationLink("Fireworks", destination: FireworksView.init)
+                NavigationLink("Magic", destination: MagicView.init)
+                NavigationLink("Rain", destination: RainView.init)
+                NavigationLink("Smoke", destination: SmokeView.init)
+                NavigationLink("Snow", destination: SnowView.init)
+                NavigationLink("Spark", destination: SparkView.init)
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .preferredColorScheme(.dark)
 }
