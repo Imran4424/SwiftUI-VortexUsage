@@ -13,6 +13,7 @@
 		1D0284022B933793006F6B23 /* FireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0284012B933793006F6B23 /* FireView.swift */; };
 		1D0284042B9337CE006F6B23 /* FirefliesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0284032B9337CE006F6B23 /* FirefliesView.swift */; };
 		1D0284062B933820006F6B23 /* DragFirefliesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0284052B933820006F6B23 /* DragFirefliesView.swift */; };
+		1D0284082B93385D006F6B23 /* FireworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0284072B93385D006F6B23 /* FireworksView.swift */; };
 		1D6B5F622B9333860081C1A0 /* UsingVortexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */; };
 		1D6B5F642B9333860081C1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F632B9333860081C1A0 /* ContentView.swift */; };
 		1D6B5F662B9333870081C1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B5F652B9333870081C1A0 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		1D0284012B933793006F6B23 /* FireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireView.swift; sourceTree = "<group>"; };
 		1D0284032B9337CE006F6B23 /* FirefliesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirefliesView.swift; sourceTree = "<group>"; };
 		1D0284052B933820006F6B23 /* DragFirefliesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragFirefliesView.swift; sourceTree = "<group>"; };
+		1D0284072B93385D006F6B23 /* FireworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksView.swift; sourceTree = "<group>"; };
 		1D6B5F5E2B9333860081C1A0 /* UsingVortex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingVortex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingVortexApp.swift; sourceTree = "<group>"; };
 		1D6B5F632B9333860081C1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				1D0284012B933793006F6B23 /* FireView.swift */,
 				1D0284032B9337CE006F6B23 /* FirefliesView.swift */,
 				1D0284052B933820006F6B23 /* DragFirefliesView.swift */,
+				1D0284072B93385D006F6B23 /* FireworksView.swift */,
 				1D6B5F652B9333870081C1A0 /* Assets.xcassets */,
 				1D6B5F672B9333870081C1A0 /* Preview Content */,
 			);
@@ -165,6 +168,7 @@
 				1D6B5F642B9333860081C1A0 /* ContentView.swift in Sources */,
 				1D6B5F622B9333860081C1A0 /* UsingVortexApp.swift in Sources */,
 				1D0283FD2B9336F5006F6B23 /* TapAnywhereConfettiView.swift in Sources */,
+				1D0284082B93385D006F6B23 /* FireworksView.swift in Sources */,
 				1D0284042B9337CE006F6B23 /* FirefliesView.swift in Sources */,
 				1D0284022B933793006F6B23 /* FireView.swift in Sources */,
 			);
