@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0283FB2B933695006F6B23 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0283FA2B933695006F6B23 /* ConfettiView.swift */; };
 		1D6B5F622B9333860081C1A0 /* UsingVortexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */; };
 		1D6B5F642B9333860081C1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F632B9333860081C1A0 /* ContentView.swift */; };
 		1D6B5F662B9333870081C1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B5F652B9333870081C1A0 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D0283FA2B933695006F6B23 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		1D6B5F5E2B9333860081C1A0 /* UsingVortex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingVortex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingVortexApp.swift; sourceTree = "<group>"; };
 		1D6B5F632B9333860081C1A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */,
 				1D6B5F632B9333860081C1A0 /* ContentView.swift */,
+				1D0283FA2B933695006F6B23 /* ConfettiView.swift */,
 				1D6B5F652B9333870081C1A0 /* Assets.xcassets */,
 				1D6B5F672B9333870081C1A0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0283FB2B933695006F6B23 /* ConfettiView.swift in Sources */,
 				1D6B5F642B9333860081C1A0 /* ContentView.swift in Sources */,
 				1D6B5F622B9333860081C1A0 /* UsingVortexApp.swift in Sources */,
 			);
