@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "vortex",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/Vortex",
+      "state" : {
+        "revision" : "3eabf0572fd37e943be64b9d2589f97f1999cb26",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

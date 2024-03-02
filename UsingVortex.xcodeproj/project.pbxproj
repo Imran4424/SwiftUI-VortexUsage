@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D0283FB2B933695006F6B23 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0283FA2B933695006F6B23 /* ConfettiView.swift */; };
 		1D0283FD2B9336F5006F6B23 /* TapAnywhereConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0283FC2B9336F5006F6B23 /* TapAnywhereConfettiView.swift */; };
+		1D0284002B93374D006F6B23 /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = 1D0283FF2B93374D006F6B23 /* Vortex */; };
 		1D6B5F622B9333860081C1A0 /* UsingVortexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F612B9333860081C1A0 /* UsingVortexApp.swift */; };
 		1D6B5F642B9333860081C1A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B5F632B9333860081C1A0 /* ContentView.swift */; };
 		1D6B5F662B9333870081C1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B5F652B9333870081C1A0 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0284002B93374D006F6B23 /* Vortex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +91,9 @@
 			dependencies = (
 			);
 			name = UsingVortex;
+			packageProductDependencies = (
+				1D0283FF2B93374D006F6B23 /* Vortex */,
+			);
 			productName = UsingVortex;
 			productReference = 1D6B5F5E2B9333860081C1A0 /* UsingVortex.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 1D6B5F552B9333860081C1A0;
+			packageReferences = (
+				1D0283FE2B93374D006F6B23 /* XCRemoteSwiftPackageReference "Vortex" */,
+			);
 			productRefGroup = 1D6B5F5F2B9333860081C1A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -352,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D0283FE2B93374D006F6B23 /* XCRemoteSwiftPackageReference "Vortex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Vortex";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D0283FF2B93374D006F6B23 /* Vortex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D0283FE2B93374D006F6B23 /* XCRemoteSwiftPackageReference "Vortex" */;
+			productName = Vortex;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D6B5F562B9333860081C1A0 /* Project object */;
 }
