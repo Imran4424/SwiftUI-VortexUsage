@@ -22,6 +22,7 @@ struct ContentView: View {
                 NavigationLink("Smoke", destination: SmokeView.init)
                 NavigationLink("Snow", destination: SnowView.init)
                 NavigationLink("Spark", destination: SparkView.init)
+                NavigationLink("Name Floating", destination: NameFloatingView.init)
             }
         }
     }
